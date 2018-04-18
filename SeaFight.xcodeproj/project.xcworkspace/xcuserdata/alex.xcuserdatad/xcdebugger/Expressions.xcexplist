@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static Deploy.setShip(withSize : Ship.Size, forPlayer : Sea.Turn) -&gt; ():Deploy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newShip.x">
+            </PersistentString>
+            <PersistentString
+               value = "sea.dimension">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.randomDeploy(forPlayer : Sea.Turn) -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.shipsCount[index][3]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnemyShipsViewController.shootButtonClick(Any) -&gt; ():EnemyShipsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " sea.enemyShipsCells[0].isSink">
+            </PersistentString>
+            <PersistentString
+               value = " sea.enemyShipsCells[0]">
+            </PersistentString>
+            <PersistentString
+               value = "sea.enemyShipsCells">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Ship.isConformFor(type : Sea.Turn) -&gt; Bool:Ship.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mask.height">
+            </PersistentString>
+            <PersistentString
+               value = "mask.originY">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Deploy.random(for : Sea.Turn) -&gt; ():Deploy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.enemyShipsCells">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Deploy.setShip(withSize : Sea.ShipSize, forPlayer : Sea.Turn) -&gt; ():Deploy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "matrix">
+            </PersistentString>
+            <PersistentString
+               value = "newShip.mask">
+            </PersistentString>
+            <PersistentString
+               value = "newShip.x">
+            </PersistentString>
+            <PersistentString
+               value = "index">
+            </PersistentString>
+            <PersistentString
+               value = "newShip.y">
+            </PersistentString>
+            <PersistentString
+               value = "shipsCount">
+            </PersistentString>
+            <PersistentString
+               value = "newShip.x ">
+            </PersistentString>
+            <PersistentString
+               value = "sea.ownMatrix">
+            </PersistentString>
+            <PersistentString
+               value = "newShip">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.refreshDeployViewController(withNewShip : UIView) -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seaView">
+            </PersistentString>
+            <PersistentString
+               value = "withNewShip">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.pickerView(UIPickerView, didSelectRow : Int, inComponent : Int) -&gt; ():SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fieldSizePicker.selectedRow(inComponent: 0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Deploy.timerTick() -&gt; ():Deploy.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Deploy.timerCounter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.(refreshDeployViewController(withNewShip : UIView) -&gt; ()).(closure #1):DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.seaView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnemyShipsViewController.viewDidAppear(Bool) -&gt; ():EnemyShipsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.shootsNow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.viewDidLoad() -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea">
+            </PersistentString>
+            <PersistentString
+               value = "Deploy.shipsCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.refreshDeployViewController() -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Deploy.newShipView">
+            </PersistentString>
+            <PersistentString
+               value = "Deploy.newShipView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.deployShipClick(Any) -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seaView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EnemyShipsViewController.refreshSightView() -&gt; ():EnemyShipsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sightImageView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OwnShipsViewController.enemyShoot() -&gt; ():OwnShipsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.ownMatrix[randomY][randomX]">
+            </PersistentString>
+            <PersistentString
+               value = "sea.ownMatrix">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UIView.freeSeaView(withDimension : Int) -&gt; UIView:DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newDotView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.timerTick() -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "image.layer.opacity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.viewDidAppear(Bool) -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "store.dimension">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.gameButtonClick() -&gt; ():SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.dimension">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DeployViewController.setShip(withSize : Sea.ShipSize, forPlayer : Sea.Turn) -&gt; ():DeployViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sea.matrix">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sea.reset() -&gt; ():Sea.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Deploy.shipsCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

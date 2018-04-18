@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2FE79720271AB600BEC747 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE79620271AB600BEC747 /* Ship.swift */; };
 		FA46010B201B235A00455F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46010A201B235A00455F6B /* AppDelegate.swift */; };
-		FA46010D201B235A00455F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46010C201B235A00455F6B /* ViewController.swift */; };
+		FA46010D201B235A00455F6B /* OwnShipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46010C201B235A00455F6B /* OwnShipsViewController.swift */; };
 		FA460110201B235A00455F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA46010E201B235A00455F6B /* Main.storyboard */; };
 		FA460112201B235A00455F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA460111201B235A00455F6B /* Assets.xcassets */; };
 		FA460115201B235A00455F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA460113201B235A00455F6B /* LaunchScreen.storyboard */; };
+		FA46011D201B252800455F6B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46011C201B252800455F6B /* SettingsViewController.swift */; };
+		FA46011F201B253800455F6B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46011E201B253800455F6B /* StartViewController.swift */; };
+		FA460121201B254800455F6B /* EnemyShipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460120201B254800455F6B /* EnemyShipsViewController.swift */; };
+		FA460125201B913F00455F6B /* DeployViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460124201B913F00455F6B /* DeployViewController.swift */; };
+		FA460127201BB95E00455F6B /* Sea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA460126201BB95E00455F6B /* Sea.swift */; };
+		FA638314201E7A08009B51F4 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA638313201E7A08009B51F4 /* extensions.swift */; };
+		FA638316201EBEAB009B51F4 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA638315201EBEAB009B51F4 /* Sound.swift */; };
+		FA6C9FF7201D3F5C004731C3 /* Deploy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C9FF6201D3F5C004731C3 /* Deploy.swift */; };
+		FADD603A20272B4700508292 /* hit-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADD603920272B4700508292 /* hit-2.mp3 */; };
+		FADD603C20272B4D00508292 /* mis-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADD603B20272B4D00508292 /* mis-2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA2FE79620271AB600BEC747 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 		FA460107201B235A00455F6B /* SeaFight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaFight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA46010A201B235A00455F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA46010C201B235A00455F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA46010C201B235A00455F6B /* OwnShipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnShipsViewController.swift; sourceTree = "<group>"; };
 		FA46010F201B235A00455F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA460111201B235A00455F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA460114201B235A00455F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA460116201B235A00455F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA46011C201B252800455F6B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		FA46011E201B253800455F6B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ../StartViewController.swift; sourceTree = "<group>"; };
+		FA460120201B254800455F6B /* EnemyShipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnemyShipsViewController.swift; path = ../EnemyShipsViewController.swift; sourceTree = "<group>"; };
+		FA460124201B913F00455F6B /* DeployViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeployViewController.swift; path = ../DeployViewController.swift; sourceTree = "<group>"; };
+		FA460126201BB95E00455F6B /* Sea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sea.swift; sourceTree = "<group>"; };
+		FA638313201E7A08009B51F4 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		FA638315201EBEAB009B51F4 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		FA6C9FF6201D3F5C004731C3 /* Deploy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deploy.swift; sourceTree = "<group>"; };
+		FADD603920272B4700508292 /* hit-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hit-2.mp3"; sourceTree = "<group>"; };
+		FADD603B20272B4D00508292 /* mis-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mis-2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,12 @@
 		FA4600FE201B235900455F6B = {
 			isa = PBXGroup;
 			children = (
+				FA638317201EBF95009B51F4 /* Sounds */,
+				FA638315201EBEAB009B51F4 /* Sound.swift */,
+				FA2FE79620271AB600BEC747 /* Ship.swift */,
+				FA638313201E7A08009B51F4 /* extensions.swift */,
+				FA6C9FF6201D3F5C004731C3 /* Deploy.swift */,
+				FA460126201BB95E00455F6B /* Sea.swift */,
 				FA460109201B235A00455F6B /* SeaFight */,
 				FA460108201B235A00455F6B /* Products */,
 			);
@@ -54,14 +82,27 @@
 		FA460109201B235A00455F6B /* SeaFight */ = {
 			isa = PBXGroup;
 			children = (
-				FA46010A201B235A00455F6B /* AppDelegate.swift */,
-				FA46010C201B235A00455F6B /* ViewController.swift */,
+				FA46011E201B253800455F6B /* StartViewController.swift */,
+				FA46011C201B252800455F6B /* SettingsViewController.swift */,
+				FA460124201B913F00455F6B /* DeployViewController.swift */,
+				FA460120201B254800455F6B /* EnemyShipsViewController.swift */,
+				FA46010C201B235A00455F6B /* OwnShipsViewController.swift */,
 				FA46010E201B235A00455F6B /* Main.storyboard */,
 				FA460111201B235A00455F6B /* Assets.xcassets */,
 				FA460113201B235A00455F6B /* LaunchScreen.storyboard */,
+				FA46010A201B235A00455F6B /* AppDelegate.swift */,
 				FA460116201B235A00455F6B /* Info.plist */,
 			);
 			path = SeaFight;
+			sourceTree = "<group>";
+		};
+		FA638317201EBF95009B51F4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FADD603920272B4700508292 /* hit-2.mp3 */,
+				FADD603B20272B4D00508292 /* mis-2.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADD603A20272B4700508292 /* hit-2.mp3 in Resources */,
+				FADD603C20272B4D00508292 /* mis-2.mp3 in Resources */,
 				FA460115201B235A00455F6B /* LaunchScreen.storyboard in Resources */,
 				FA460112201B235A00455F6B /* Assets.xcassets in Resources */,
 				FA460110201B235A00455F6B /* Main.storyboard in Resources */,
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA46010D201B235A00455F6B /* ViewController.swift in Sources */,
+				FA460125201B913F00455F6B /* DeployViewController.swift in Sources */,
+				FA46010D201B235A00455F6B /* OwnShipsViewController.swift in Sources */,
+				FA46011F201B253800455F6B /* StartViewController.swift in Sources */,
+				FA638314201E7A08009B51F4 /* extensions.swift in Sources */,
 				FA46010B201B235A00455F6B /* AppDelegate.swift in Sources */,
+				FA638316201EBEAB009B51F4 /* Sound.swift in Sources */,
+				FA2FE79720271AB600BEC747 /* Ship.swift in Sources */,
+				FA460127201BB95E00455F6B /* Sea.swift in Sources */,
+				FA46011D201B252800455F6B /* SettingsViewController.swift in Sources */,
+				FA6C9FF7201D3F5C004731C3 /* Deploy.swift in Sources */,
+				FA460121201B254800455F6B /* EnemyShipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -265,10 +317,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L59MFV4Z75;
 				INFOPLIST_FILE = SeaFight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Alex.SeaFight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,10 +332,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L59MFV4Z75;
 				INFOPLIST_FILE = SeaFight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Alex.SeaFight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +360,7 @@
 				FA46011B201B235A00455F6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
